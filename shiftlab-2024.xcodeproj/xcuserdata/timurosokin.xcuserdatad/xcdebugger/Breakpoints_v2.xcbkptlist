@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "558E4513-97BA-4C86-A91A-9EFF2B332D08"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F293AD2-2BE6-4223-8659-9101F1ECA4F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "nameHStack"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2DC0B7A-ACBF-443C-8FAC-15755D324EC8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setupValidation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA8D85C3-0B8F-4592-9E1C-5FC43AB3A9A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "setupValidation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97BBBC23-EFC3-4ADA-A1A7-4161127097F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "setupValidation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "114C0974-A578-4AA8-8EB4-9B2E91CFC83D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "358"
+            endingLineNumber = "358"
+            landmarkName = "registerButtonTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62B2325B-F03C-412A-85E3-FBCA919B82B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "didTapRegister()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0231EAE6-2D2F-4484-B903-54344DACE01E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "onButtonTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0231EAE6-2D2F-4484-B903-54344DACE01E - d9b8211718a6a9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewModel.onButtonTapped() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "0231EAE6-2D2F-4484-B903-54344DACE01E - d9b8211718a6b83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewModel.onButtonTapped() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18C6F3F3-C77F-47EB-920A-8862A8A41B6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "navigateToMainScreen()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "698A12E5-D5C8-43CB-B806-627AAAEF1CA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "navigateToMainScreen()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "698A12E5-D5C8-43CB-B806-627AAAEF1CA6 - e72635d91ebe9479"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewController.navigateToMainScreen() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "698A12E5-D5C8-43CB-B806-627AAAEF1CA6 - b7a054a215fe7765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in shiftlab_2024.LoginViewController.navigateToMainScreen() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "698A12E5-D5C8-43CB-B806-627AAAEF1CA6 - e72635d91ebe9418"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewController.navigateToMainScreen() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "698A12E5-D5C8-43CB-B806-627AAAEF1CA6 - b7a054a215fe7704"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in shiftlab_2024.LoginViewController.navigateToMainScreen() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A069DB6-2116-4A0B-B99A-9BF8701303D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/Navigator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "navigateToTableScreen()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DDC5996-E644-44A4-B4F3-E96572533DEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/TableScreen/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6DDC5996-E644-44A4-B4F3-E96572533DEA - 7b20277408094e35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "6DDC5996-E644-44A4-B4F3-E96572533DEA - 7b20277408094e35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "6DDC5996-E644-44A4-B4F3-E96572533DEA - 7b20277408095190"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "6DDC5996-E644-44A4-B4F3-E96572533DEA - 7b20277408094e14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/TableScreen/TableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "tableView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - 4228246019838bd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.products.getter : Swift.Array&lt;shiftlab_2024.Product&gt;"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - 39af4140315c515e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.products.setter : Swift.Array&lt;shiftlab_2024.Product&gt;"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - f731a0a67470efad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.products.modify : Swift.Array&lt;shiftlab_2024.Product&gt;"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - e27e7f03b4f80e82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.products.modify : Swift.Array&lt;shiftlab_2024.Product&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - 63e8180af9c16098"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.init(frame: __C.CGRect, style: __C.UITableViewStyle) -&gt; shiftlab_2024.TableView"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - c4b071857382be75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;shiftlab_2024.TableView&gt;"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - e27e7f03b4f80e82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.products.modify : Swift.Array&lt;shiftlab_2024.Product&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - 34cdb27266554c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UITableView in variable initialization expression of shiftlab_2024.TableView.tableView : __C.UITableView"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - 55c183980c57c245"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.tableView.getter : __C.UITableView"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - 85eb24034f3be3e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.init(frame: __C.CGRect) -&gt; shiftlab_2024.TableView"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "038FB12E-CEAC-407A-8AFE-61A28525ECC8 - c4b071857382be54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.TableView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;shiftlab_2024.TableView&gt;"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/TableScreen/TableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44CE549A-65D7-412C-BB53-071B53C74F0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/TableScreen/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "687D1BA7-72E1-4062-9C7A-633AD42A6C5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/TableScreen/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3053E9BA-024B-4AA8-822E-A1375DE12E76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/TableScreen/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B6F06D2-F466-4BB8-A4EB-A8CC39A916F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "confirmPasswordEdited(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B6F06D2-F466-4BB8-A4EB-A8CC39A916F2 - a2c5a2e466d72f3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewController.confirmPasswordEdited(with: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "1B6F06D2-F466-4BB8-A4EB-A8CC39A916F2 - a2c5a2e466d72e14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewController.confirmPasswordEdited(with: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0E3BC16-D928-48B9-B06B-F943E40CC936"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "passwordEdited(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F0E3BC16-D928-48B9-B06B-F943E40CC936 - ce987fca5a4254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewController.passwordEdited(with: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "F0E3BC16-D928-48B9-B06B-F943E40CC936 - ce987fca5a4123"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewController.passwordEdited(with: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B384057-474A-431F-AFFE-82F0004D4A41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "validateConfirmPassword(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7B384057-474A-431F-AFFE-82F0004D4A41 - 8fcc0634e59bbd61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewModel.validateConfirmPassword(Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Bool"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "7B384057-474A-431F-AFFE-82F0004D4A41 - 8fcc0634e59bba37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewModel.validateConfirmPassword(Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Bool"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "734EEF99-54F8-459D-8D2B-C4982CF17FB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "validatePassword(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0BFFED1-6CE4-4827-AA30-8DCF9C23B302"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/LoginScreen/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "validateInput(_:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0BFFED1-6CE4-4827-AA30-8DCF9C23B302 - 69a1e8766764f898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewModel.validateInput(_: Swift.Optional&lt;Swift.String&gt;, for: shiftlab_2024.LoginViewModel.ValidationType) -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "C0BFFED1-6CE4-4827-AA30-8DCF9C23B302 - 69a1e8766764f961"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.LoginViewModel.validateInput(_: Swift.Optional&lt;Swift.String&gt;, for: shiftlab_2024.LoginViewModel.ValidationType) -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/LoginScreen/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0D2BCA6-5DBE-4008-BBE1-B9D8582D180A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shiftlab-2024/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "checkUserSession()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0D2BCA6-5DBE-4008-BBE1-B9D8582D180A - 1d9ea9888b849dc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.SceneDelegate.checkUserSession() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "C0D2BCA6-5DBE-4008-BBE1-B9D8582D180A - 1d9ea9888b849dc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shiftlab_2024.SceneDelegate.checkUserSession() -&gt; ()"
+                  moduleName = "shiftlab-2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timurosokin/Desktop/work/shiftlab-2024/shiftlab-2024/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

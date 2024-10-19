@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EED02D882CC1850A00A2B297 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D872CC1850A00A2B297 /* TableViewController.swift */; };
+		EED02D8A2CC19C5300A2B297 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D892CC19C5300A2B297 /* TableView.swift */; };
+		EED02D8C2CC19D6A00A2B297 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D8B2CC19D6A00A2B297 /* TableViewCell.swift */; };
+		EED02D922CC2981B00A2B297 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D912CC2981B00A2B297 /* CoreDataManager.swift */; };
+		EED02D952CC3037800A2B297 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D942CC3037800A2B297 /* User+CoreDataProperties.swift */; };
+		EED02D972CC3038600A2B297 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D962CC3038600A2B297 /* User+CoreDataClass.swift */; };
 		EEF40F932CBD050E00C03B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40F922CBD050E00C03B63 /* AppDelegate.swift */; };
 		EEF40F952CBD050E00C03B63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40F942CBD050E00C03B63 /* SceneDelegate.swift */; };
-		EEF40F972CBD050E00C03B63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40F962CBD050E00C03B63 /* ViewController.swift */; };
-		EEF40F9A2CBD050E00C03B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF40F982CBD050E00C03B63 /* Main.storyboard */; };
+		EEF40F972CBD050E00C03B63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40F962CBD050E00C03B63 /* LoginViewController.swift */; };
 		EEF40F9D2CBD050E00C03B63 /* shiftlab_2024.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEF40F9B2CBD050E00C03B63 /* shiftlab_2024.xcdatamodeld */; };
 		EEF40F9F2CBD050F00C03B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF40F9E2CBD050F00C03B63 /* Assets.xcassets */; };
 		EEF40FA22CBD050F00C03B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF40FA02CBD050F00C03B63 /* LaunchScreen.storyboard */; };
 		EEF40FAD2CBD051000C03B63 /* shiftlab_2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FAC2CBD051000C03B63 /* shiftlab_2024Tests.swift */; };
 		EEF40FB72CBD051000C03B63 /* shiftlab_2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FB62CBD051000C03B63 /* shiftlab_2024UITests.swift */; };
 		EEF40FB92CBD051000C03B63 /* shiftlab_2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FB82CBD051000C03B63 /* shiftlab_2024UITestsLaunchTests.swift */; };
+		EEF40FC82CBD06DB00C03B63 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FC72CBD06DB00C03B63 /* LoginView.swift */; };
+		EEF40FCA2CBD092100C03B63 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FC92CBD092100C03B63 /* LoginViewModel.swift */; };
+		EEF40FCF2CC10C5600C03B63 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FCE2CC10C5600C03B63 /* Navigator.swift */; };
+		EEF40FD12CC10DA800C03B63 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FD02CC10DA800C03B63 /* TableViewModel.swift */; };
+		EEF40FD32CC17B9000C03B63 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF40FD22CC17B9000C03B63 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EED02D872CC1850A00A2B297 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EED02D892CC19C5300A2B297 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		EED02D8B2CC19D6A00A2B297 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EED02D912CC2981B00A2B297 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EED02D942CC3037800A2B297 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EED02D962CC3038600A2B297 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		EEF40F8F2CBD050E00C03B63 /* shiftlab-2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shiftlab-2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF40F922CBD050E00C03B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF40F942CBD050E00C03B63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEF40F962CBD050E00C03B63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEF40F992CBD050E00C03B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEF40F962CBD050E00C03B63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EEF40F9C2CBD050E00C03B63 /* shiftlab_2024.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shiftlab_2024.xcdatamodel; sourceTree = "<group>"; };
 		EEF40F9E2CBD050F00C03B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEF40FA12CBD050F00C03B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,11 @@
 		EEF40FB22CBD051000C03B63 /* shiftlab-2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shiftlab-2024UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF40FB62CBD051000C03B63 /* shiftlab_2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shiftlab_2024UITests.swift; sourceTree = "<group>"; };
 		EEF40FB82CBD051000C03B63 /* shiftlab_2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shiftlab_2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEF40FC72CBD06DB00C03B63 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EEF40FC92CBD092100C03B63 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EEF40FCE2CC10C5600C03B63 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		EEF40FD02CC10DA800C03B63 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		EEF40FD22CC17B9000C03B63 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EED02D932CC3035500A2B297 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EED02D962CC3038600A2B297 /* User+CoreDataClass.swift */,
+				EED02D942CC3037800A2B297 /* User+CoreDataProperties.swift */,
+				EED02D912CC2981B00A2B297 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		EEF40F862CBD050E00C03B63 = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +133,11 @@
 			children = (
 				EEF40F922CBD050E00C03B63 /* AppDelegate.swift */,
 				EEF40F942CBD050E00C03B63 /* SceneDelegate.swift */,
-				EEF40F962CBD050E00C03B63 /* ViewController.swift */,
-				EEF40F982CBD050E00C03B63 /* Main.storyboard */,
+				EEF40FCE2CC10C5600C03B63 /* Navigator.swift */,
+				EED02D932CC3035500A2B297 /* CoreData */,
+				EEF40FD42CC17DF900C03B63 /* Entities */,
+				EEF40FD52CC17E1B00C03B63 /* TableScreen */,
+				EEF40FCB2CBD096E00C03B63 /* LoginScreen */,
 				EEF40F9E2CBD050F00C03B63 /* Assets.xcassets */,
 				EEF40FA02CBD050F00C03B63 /* LaunchScreen.storyboard */,
 				EEF40FA32CBD050F00C03B63 /* Info.plist */,
@@ -128,6 +161,35 @@
 				EEF40FB82CBD051000C03B63 /* shiftlab_2024UITestsLaunchTests.swift */,
 			);
 			path = "shiftlab-2024UITests";
+			sourceTree = "<group>";
+		};
+		EEF40FCB2CBD096E00C03B63 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EEF40FC72CBD06DB00C03B63 /* LoginView.swift */,
+				EEF40F962CBD050E00C03B63 /* LoginViewController.swift */,
+				EEF40FC92CBD092100C03B63 /* LoginViewModel.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		EEF40FD42CC17DF900C03B63 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EEF40FD22CC17B9000C03B63 /* Product.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EEF40FD52CC17E1B00C03B63 /* TableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EEF40FD02CC10DA800C03B63 /* TableViewModel.swift */,
+				EED02D872CC1850A00A2B297 /* TableViewController.swift */,
+				EED02D892CC19C5300A2B297 /* TableView.swift */,
+				EED02D8B2CC19D6A00A2B297 /* TableViewCell.swift */,
+			);
+			path = TableScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +298,6 @@
 			files = (
 				EEF40FA22CBD050F00C03B63 /* LaunchScreen.storyboard in Resources */,
 				EEF40F9F2CBD050F00C03B63 /* Assets.xcassets in Resources */,
-				EEF40F9A2CBD050E00C03B63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +322,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF40F972CBD050E00C03B63 /* ViewController.swift in Sources */,
+				EED02D8C2CC19D6A00A2B297 /* TableViewCell.swift in Sources */,
+				EEF40FC82CBD06DB00C03B63 /* LoginView.swift in Sources */,
+				EED02D952CC3037800A2B297 /* User+CoreDataProperties.swift in Sources */,
+				EED02D8A2CC19C5300A2B297 /* TableView.swift in Sources */,
+				EEF40F972CBD050E00C03B63 /* LoginViewController.swift in Sources */,
+				EEF40FCF2CC10C5600C03B63 /* Navigator.swift in Sources */,
 				EEF40F932CBD050E00C03B63 /* AppDelegate.swift in Sources */,
+				EED02D972CC3038600A2B297 /* User+CoreDataClass.swift in Sources */,
+				EEF40FD32CC17B9000C03B63 /* Product.swift in Sources */,
 				EEF40F9D2CBD050E00C03B63 /* shiftlab_2024.xcdatamodeld in Sources */,
+				EED02D882CC1850A00A2B297 /* TableViewController.swift in Sources */,
+				EEF40FD12CC10DA800C03B63 /* TableViewModel.swift in Sources */,
+				EED02D922CC2981B00A2B297 /* CoreDataManager.swift in Sources */,
 				EEF40F952CBD050E00C03B63 /* SceneDelegate.swift in Sources */,
+				EEF40FCA2CBD092100C03B63 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EEF40F982CBD050E00C03B63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEF40F992CBD050E00C03B63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEF40FA02CBD050F00C03B63 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,7 +515,6 @@
 				INFOPLIST_FILE = "shiftlab-2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,7 +542,6 @@
 				INFOPLIST_FILE = "shiftlab-2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
