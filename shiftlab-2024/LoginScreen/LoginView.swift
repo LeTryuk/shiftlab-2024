@@ -320,7 +320,6 @@ class LoginView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         addSubviews()
     }
         
@@ -398,7 +397,6 @@ extension LoginView: UITextFieldDelegate {
             
         default: break
         }
-        
         return true
     }
 }

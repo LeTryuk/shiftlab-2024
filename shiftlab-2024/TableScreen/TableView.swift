@@ -10,7 +10,6 @@ import UIKit
 
 class TableView: UIView {
     
-    
     let tableView: UITableView = {
         let table = UITableView()
         table.translatesAutoresizingMaskIntoConstraints = false
@@ -19,7 +18,6 @@ class TableView: UIView {
         
         return table
     }()
-    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,7 +28,6 @@ class TableView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     
     private func setupView() {
         addSubview(tableView)

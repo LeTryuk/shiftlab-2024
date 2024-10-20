@@ -12,7 +12,7 @@ class TableViewController: UIViewController {
     private let contentView = TableView()
     
     private var dataSource: UITableViewDiffableDataSource<Int, Product>?
-    private var viewModel = TableViewModel(with: .default)
+    private var viewModel = TableViewModel()
     
     
     private let greetingButton: UIButton = {
@@ -31,20 +31,11 @@ class TableViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
+        
         setupDataSource()
         fetchData()
-        
         setupNavigationBar()
-        
-        //TODO: убрать
-        if let userName = CoreDataManager.shared.obtainSavedData() {
-            print("Имя пользователя: \(userName)")
-        }
-        else {
-            print("Пользователя нет")
-        }
     }
     
     private func setupDataSource() {
@@ -54,6 +45,7 @@ class TableViewController: UIViewController {
         return cell
         }
     }
+    
     
     private func fetchData() {
         Task {
@@ -75,11 +67,11 @@ class TableViewController: UIViewController {
     
     private func setupNavigationBar() {
         let greetingButton = UIBarButtonItem(title: "Приветствие", style: .plain, target: self, action: #selector(showGreeting))
-        
-        let logoutButton = UIBarButtonItem(image: UIImage(systemName: "xmark.circle"), style: .plain, target: self, action: #selector(logout))
-        
         navigationItem.leftBarButtonItem = greetingButton
-        navigationItem.rightBarButtonItem = logoutButton
+        
+        //MARK: - кнопка для удаления пользователя из CoreData
+//        let logoutButton = UIBarButtonItem(image: UIImage(systemName: "xmark.circle"), style: .plain, target: self, action: #selector(logout))
+//        navigationItem.rightBarButtonItem = logoutButton
     }
     
     @objc private func showGreeting() {
@@ -89,11 +81,10 @@ class TableViewController: UIViewController {
             present(alert, animated: true)
         }
     }
-    
-    @objc private func logout() {
-        CoreDataManager.shared.deleteUser()
-        
-    }
+    //MARK: - метод для удаления пользователя из CoreData
+//    @objc private func logout() {
+//        CoreDataManager.shared.deleteUser()
+//    }
 }
 
 

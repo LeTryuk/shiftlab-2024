@@ -46,12 +46,10 @@ class CoreDataManager {
     
     func obtainSavedData() -> String? {
         let fetchRequest: NSFetchRequest<User> = User.fetchRequest()
-        
         fetchRequest.fetchLimit = 1
         
         do {
             let users = try context.fetch(fetchRequest)
-            
             if let user = users.first {
                 return user.name
             } else {
@@ -73,7 +71,7 @@ class CoreDataManager {
                 print("Имя пользователя удалено")
             }
             else {
-                print("Пользователей не найден")
+                print("Пользователь не найден")
             }
         }
         catch {

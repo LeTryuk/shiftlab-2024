@@ -8,26 +8,9 @@
 import Foundation
 
 class TableViewModel {
-    
-    private let session: URLSession
-    
-    lazy var jsonDecoder: JSONDecoder = {
-        JSONDecoder()
-    }()
-    
-    init(with sessionConfiguration: URLSessionConfiguration) {
-        session = URLSession(configuration: sessionConfiguration)
-    }
+    private var networkManager = NetworkManager(with: .default)
     
     func fetchData() async throws -> [Product] {
-        guard let url = URL(string: "https://fakestoreapi.com/products") else { return [] }
-        
-        var urlRequest = URLRequest(url: url)
-        urlRequest.httpMethod = "GET"
-        
-        let responseData = try await session.data(for: urlRequest)
-        
-        
-        return try jsonDecoder.decode([Product].self, from: responseData.0)
+        return try await networkManager.fetchData()
     }
 }

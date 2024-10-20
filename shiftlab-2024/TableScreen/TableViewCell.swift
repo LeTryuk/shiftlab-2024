@@ -14,7 +14,6 @@ class TableViewCell: UITableViewCell {
         let title = UILabel()
         title.font = UIFont.boldSystemFont(ofSize: 18)
         title.translatesAutoresizingMaskIntoConstraints = false
-        
         return title
     }()
     
@@ -23,7 +22,6 @@ class TableViewCell: UITableViewCell {
         price.font = UIFont.systemFont(ofSize: 14)
         price.textColor = .gray
         price.translatesAutoresizingMaskIntoConstraints = false
-        
         return price
     }()
     
@@ -35,13 +33,11 @@ class TableViewCell: UITableViewCell {
         container.layer.shadowOpacity = 0.1
         container.layer.shadowRadius = 5
         container.translatesAutoresizingMaskIntoConstraints = false
-        
         return container
     }()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
         addSubviews()
         setupConstraints()
     }
@@ -56,9 +52,7 @@ class TableViewCell: UITableViewCell {
         container.addSubview(titleLabel)
     }
     
-    
     private func setupConstraints() {
-        
         
         NSLayoutConstraint.activate([
             container.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),

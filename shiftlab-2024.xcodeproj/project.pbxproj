@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0088962CC51EA100115ADD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0088952CC51EA100115ADD /* NetworkManager.swift */; };
+		EE0088992CC524B700115ADD /* FieldUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0088982CC524B700115ADD /* FieldUI.swift */; };
+		EE00889B2CC5275800115ADD /* FieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00889A2CC5275800115ADD /* FieldType.swift */; };
 		EED02D882CC1850A00A2B297 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D872CC1850A00A2B297 /* TableViewController.swift */; };
 		EED02D8A2CC19C5300A2B297 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D892CC19C5300A2B297 /* TableView.swift */; };
 		EED02D8C2CC19D6A00A2B297 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED02D8B2CC19D6A00A2B297 /* TableViewCell.swift */; };
@@ -47,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0088952CC51EA100115ADD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = CoreData/NetworkManager.swift; sourceTree = "<group>"; };
+		EE0088982CC524B700115ADD /* FieldUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldUI.swift; sourceTree = "<group>"; };
+		EE00889A2CC5275800115ADD /* FieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldType.swift; sourceTree = "<group>"; };
 		EED02D872CC1850A00A2B297 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EED02D892CC19C5300A2B297 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		EED02D8B2CC19D6A00A2B297 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -134,6 +140,7 @@
 				EEF40F922CBD050E00C03B63 /* AppDelegate.swift */,
 				EEF40F942CBD050E00C03B63 /* SceneDelegate.swift */,
 				EEF40FCE2CC10C5600C03B63 /* Navigator.swift */,
+				EE0088952CC51EA100115ADD /* NetworkManager.swift */,
 				EED02D932CC3035500A2B297 /* CoreData */,
 				EEF40FD42CC17DF900C03B63 /* Entities */,
 				EEF40FD52CC17E1B00C03B63 /* TableScreen */,
@@ -166,6 +173,8 @@
 		EEF40FCB2CBD096E00C03B63 /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
+				EE0088982CC524B700115ADD /* FieldUI.swift */,
+				EE00889A2CC5275800115ADD /* FieldType.swift */,
 				EEF40FC72CBD06DB00C03B63 /* LoginView.swift */,
 				EEF40F962CBD050E00C03B63 /* LoginViewController.swift */,
 				EEF40FC92CBD092100C03B63 /* LoginViewModel.swift */,
@@ -326,6 +335,8 @@
 				EEF40FC82CBD06DB00C03B63 /* LoginView.swift in Sources */,
 				EED02D952CC3037800A2B297 /* User+CoreDataProperties.swift in Sources */,
 				EED02D8A2CC19C5300A2B297 /* TableView.swift in Sources */,
+				EE0088962CC51EA100115ADD /* NetworkManager.swift in Sources */,
+				EE0088992CC524B700115ADD /* FieldUI.swift in Sources */,
 				EEF40F972CBD050E00C03B63 /* LoginViewController.swift in Sources */,
 				EEF40FCF2CC10C5600C03B63 /* Navigator.swift in Sources */,
 				EEF40F932CBD050E00C03B63 /* AppDelegate.swift in Sources */,
@@ -336,6 +347,7 @@
 				EEF40FD12CC10DA800C03B63 /* TableViewModel.swift in Sources */,
 				EED02D922CC2981B00A2B297 /* CoreDataManager.swift in Sources */,
 				EEF40F952CBD050E00C03B63 /* SceneDelegate.swift in Sources */,
+				EE00889B2CC5275800115ADD /* FieldType.swift in Sources */,
 				EEF40FCA2CBD092100C03B63 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,8 +527,8 @@
 				INFOPLIST_FILE = "shiftlab-2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,8 +554,8 @@
 				INFOPLIST_FILE = "shiftlab-2024/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

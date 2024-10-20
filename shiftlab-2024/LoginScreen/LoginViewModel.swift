@@ -10,15 +10,7 @@ import Foundation
 
 class LoginViewModel {
     
-    enum ValidationType {
-        case name
-        case lastName
-        case birthDate
-        case password
-        case confirmPassword
-    }
-    
-    var onValidationResult: ((ValidationType, Bool, String?) -> Void)?
+    var onValidationResult: ((FieldType, Bool, String?) -> Void)?
     var onAllFieldsValid: ((Bool) -> Void)?
     var navigateToNextScreen: (()-> Void)?
     
@@ -31,7 +23,7 @@ class LoginViewModel {
     private var isPasswordValid = false
     private var isConfirmPasswordValid = false
     
-    func validateInput(_ input: String?, for type: ValidationType) {
+    func validateInput(_ input: String?, for type: FieldType) {
         var isValid = false
         var errorMessage: String?
         
@@ -69,7 +61,6 @@ class LoginViewModel {
             isConfirmPasswordValid = isValid
         }
         onValidationResult?(type, isValid, errorMessage)
-        
         checkAllFields()
     }
     
@@ -88,26 +79,21 @@ class LoginViewModel {
     private func validateDate(_ dateString: String?) -> Bool {
         
         guard let dateString = dateString else { return false }
-        
         let dateFormatter = DateFormatter()
-        
         dateFormatter.dateFormat = "MMM dd, yyyy"
         
         guard let selectedDate = dateFormatter.date(from: dateString) else { return false }
-        
         let calendar = Calendar.current
         let currentDate = Date()
-        
         let ageComponents = calendar.dateComponents([.year], from: selectedDate, to: currentDate)
-        guard let age = ageComponents.year else { return false }
         
+        guard let age = ageComponents.year else { return false }
         return age >= 18 && age < 53
     }
     
     private func validatePassword(_ password: String?) -> Bool {
         guard let password = password else { return false }
         return password.count >= 8 && password.rangeOfCharacter(from: .uppercaseLetters) != nil && password.rangeOfCharacter(from: .decimalDigits) != nil
-        
     }
     
     private func validateConfirmPassword(_ confirmPassword: String?) -> Bool {

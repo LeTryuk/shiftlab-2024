@@ -10,6 +10,7 @@ import UIKit
 class LoginViewController: UIViewController {
 
     private let contentView : LoginView = .init()
+    private var fieldUIMap: [FieldType: FieldUI] = [:]
     private let viewModel = LoginViewModel()
     private let navigator : AppNavigator
     
@@ -30,10 +31,29 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        fieldUIMap = [
+                .name: FieldUI(label: contentView.nameLabel, checkmark: contentView.nameCheck),
+                .lastName: FieldUI(label: contentView.lastNameLabel, checkmark: contentView.lastNameCheck),
+                .birthDate: FieldUI(label: contentView.dateLabel, checkmark: contentView.dateCheck),
+                .password: FieldUI(label: contentView.passwordLabel, checkmark: contentView.passwordCheck),
+                .confirmPassword: FieldUI(label: contentView.confirmPasswordLabel, checkmark: contentView.confirmPasswordCheck)
+            ]
+        
         contentView.delegate = self
         setupValidation()
-        
         navigateToMainScreen()
+    }
+    
+    private func updateField(type: FieldType, isValid: Bool, errorMessage: String?) {
+        guard let fieldUI = fieldUIMap[type] else { return }
+        fieldUI.checkmark.isHidden = !isValid
+        fieldUI.label.text = errorMessage
+        fieldUI.label.isHidden = errorMessage == nil
+        
+        if type == .password {
+            contentView.confirmPasswordTextField.isEnabled = isValid
+            contentView.confirmPasswordTextField.isHidden = !isValid
+        }
     }
     
     private func setupValidation() {
@@ -45,38 +65,8 @@ class LoginViewController: UIViewController {
         }
         
         viewModel.onValidationResult = { [weak self] type, isValid, errorMessage in
-            
             guard let self = self else { return }
-            
-            switch type {
-            case .name:
-                self.contentView.nameCheck.isHidden = !isValid
-                self.contentView.nameLabel.text = errorMessage
-                self.contentView.nameLabel.isHidden = errorMessage == nil
-                
-            case .lastName:
-                self.contentView.lastNameCheck.isHidden = !isValid
-                self.contentView.lastNameLabel.text = errorMessage
-                self.contentView.lastNameLabel.isHidden = errorMessage == nil
-                
-            case .birthDate:
-                self.contentView.dateCheck.isHidden = !isValid
-                self.contentView.dateLabel.text = errorMessage
-                self.contentView.dateLabel.isHidden = errorMessage == nil
-                
-            case .password:
-                self.contentView.passwordCheck.isHidden = !isValid
-                self.contentView.passwordLabel.text = errorMessage
-                self.contentView.passwordLabel.isHidden = errorMessage == nil
-                self.contentView.confirmPasswordTextField.isEnabled = isValid
-                self.contentView.confirmPasswordTextField.isHidden = !isValid
-                
-            case .confirmPassword:
-                self.contentView.confirmPasswordCheck.isHidden = !isValid
-                self.contentView.confirmPasswordLabel.text = errorMessage
-                self.contentView.confirmPasswordLabel.isHidden = errorMessage == nil
-                
-            }
+            updateField(type: type, isValid: isValid, errorMessage: errorMessage)
         }
     }
     
@@ -88,9 +78,11 @@ class LoginViewController: UIViewController {
 }
 
 extension LoginViewController: LoginViewDelegate {
+    
     func nameEdited(with name: String?) {
         viewModel.validateInput(name, for: .name)
     }
+    
     func lastNameEdited(with lastName: String?) {
         viewModel.validateInput(lastName, for: .lastName)
     }
@@ -98,9 +90,11 @@ extension LoginViewController: LoginViewDelegate {
     func dateOfBirthEdited(with date: String?) {
         viewModel.validateInput(date, for: .birthDate)
     }
+    
     func passwordEdited(with password: String?) {
         viewModel.validateInput(password, for: .password)
     }
+    
     func confirmPasswordEdited(with confirmPassword: String?) {
         viewModel.validateInput(confirmPassword, for: .confirmPassword)
     }
